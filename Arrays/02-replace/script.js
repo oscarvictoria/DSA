@@ -12,3 +12,4 @@ function replace(arr, index, value) {
 var arr =  [10, 99, 30]
 
 console.log(replace(arr, 0, 2));
+
