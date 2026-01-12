@@ -35,10 +35,23 @@ console.log(result);
 
 
 
-// 7Create a new array with only even numbers
+// Create a new array with only even numbers
 // Example:
 // Input: [1, 2, 3, 4, 5, 6]
 // Output: [2, 4, 6]
 
-// All solutions should be written as functions
-// Avoid built-in methods unless discussed in class
+var list = [1, 2, 3, 4, 5, 6]; 
+
+function getEven(arr) {
+    var evenArr = [];
+    for(let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            evenArr.push(arr[i]); 
+        }
+    }
+
+    return evenArr; 
+
+}
+
+console.log(getEven(list)); 
